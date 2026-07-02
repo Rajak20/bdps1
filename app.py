@@ -23,7 +23,7 @@ from auth import login_required, admin_required, AuthError
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["https://famous-lolly-ab178a.netlify.app/"],
+CORS(app, origins=["https://prismatic-belekoy-7a90e5.netlify.app"],
      supports_credentials=True,
      allow_headers=["Content-Type", "Authorization"],
      methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
